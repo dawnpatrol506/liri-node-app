@@ -1,0 +1,25 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Search for events, music, and movies with LIRI",
+  "main": "liri.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawnpatrol506/liri-node-app.git"
+  },
+  "author": "Kevin Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawnpatrol506/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/dawnpatrol506/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0"
+  }
+}
