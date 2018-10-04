@@ -4,3 +4,4 @@ exports.spotify = {
 };
 
 exports.bandsInTownKey = 'codingbootcamp';
+exports.omdbKey = 'trilogy';
