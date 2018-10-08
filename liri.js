@@ -20,8 +20,12 @@ function eventResponse(search) {
                 console.log('Venue: ' + body[i].venue.name);
                 console.log('Location: ' + body[i].venue.city + ', ' + body[i].venue.country);
 
-                if (body[i].dateTime)
-                    console.log('Date: ' + body[i].dateTime + '\n');
+                let eventDate = body[i].datetime.split('T')[0];
+                eventDate = moment(eventDate, 'YYYY-MM-DD').format('MMM DD, YYYY');
+                console.log(eventDate);
+
+                if (eventDate)
+                    console.log('Date: ' + eventDate + '\n');
                 else
                     console.log('Date: TBA')
 
