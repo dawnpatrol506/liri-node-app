@@ -88,7 +88,7 @@ function commandPicker(command, search) {
             search === undefined ? eventResponse('fleetwood mac') : eventResponse(search);
             break;
         case 'spotify-this-song':
-            //Let's default to a good song instad of trash shall we?
+            //Let's default to a good song instead of trash, shall we?
             search === undefined ? songResponse('sultans of swing') : songResponse(search);
             break;
         case 'movie-this':
